@@ -1,0 +1,143 @@
+* {
+    font-family: sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #eee;
+  }
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  
+  header {
+    position: fixed;
+    min-height: 75px;
+    padding: 0px 30px;
+    justify-content: space-between;
+    background-color: #eee;
+  }
+  
+  #header-img {
+    position: fixed;
+    height: 120px;
+    width: 1000;
+  }
+  
+  #nav-bar {
+    position: fixed;
+    width: 100%;
+    margin: 20px;
+  }
+  
+  li {
+    display: inline;
+    float: right;
+    width: 240px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav .nav-link:hover {
+    color: blue;
+  }
+  
+  /*header*/
+  
+  /*form*/
+  
+  form {
+    display: inline;
+  }
+  
+  /*form*/
+  
+  /*grid*/
+  
+  div .icon {
+    position: relative;
+    top: 5px;
+    color: darkorange;
+  }
+  
+  
+  /*grid*/
+  #features {
+    display: block;
+  }
+  
+  /*media*/
+  
+  section {
+    margin: 50px;
+  }
+  
+  /*media*/
+  
+  /*flexbox*/
+  .flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 310px;
+    margin: 50px;
+  }
+  h1 {
+    background-color: #ddd;
+    margin-top: 0px;
+    padding: 10px;
+  }
+  
+  .item1 {
+    border: solid 1px;
+    box-sizing: border-box;
+    width: 275px; 
+  }
+  
+  .item2 {
+    border: 1px solid;
+    width: 275px;
+    
+  }
+  
+  .item3 {
+    border: 1px solid;
+    width: 275px;
+  }
+  
+  .btn {
+    padding: 0 20px;
+    height: 40px;
+    border: 1px black solid;
+    border-radius: 1px;
+    background: transparent;
+    text-transform: uppercase;
+    background-color: #f1c40f;
+    
+  }
+  /*flexbox*/
+  
+  /*footer*/
+  footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  
+  footer a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: blue;
+  }
+  /*footer*/
